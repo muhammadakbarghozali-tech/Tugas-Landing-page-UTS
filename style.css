@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HERO BACKGROUND */
+.hero-bg {
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('Foto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CARD HOVER EFFECT */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(107, 33, 168, 0.2);
+}
+
+/* NAV ACTIVE LINK */
+.nav-link.aktif-link {
+    text-decoration: underline;
+    color: #e9d5ff;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    text-align: left;
+}
